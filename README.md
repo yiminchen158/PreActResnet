@@ -2,7 +2,6 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Python](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-370/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 本项目实现了基于Pre-Activation ResNet和ResNeXt的高效图像分类模型，专为CIFAR-10数据集优化。通过先进的训练技术和数据增强方法，我们的模型在CIFAR-10上达到了优异的性能表现。
 
@@ -187,10 +186,6 @@ tensorboard --logdir=runs/
 - 测试准确率
 - 学习率变化
 
-## 许可证
-
-本项目采用MIT许可证，详情请参见[LICENSE](LICENSE)文件。
-
 ## 引用
 
 如果你在研究中使用了本项目，请引用相关工作：
@@ -214,3 +209,4 @@ tensorboard --logdir=runs/
 }
 
 ```
+
