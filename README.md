@@ -16,7 +16,10 @@
 | 准确率 | 96.63%(不同优化器准确率不同)|
 | 优化技术 | CutMix, MixUp, 标签平滑, 学习率调度等 |
 | 框架 | PyTorch >= 2.5.1 |
+
+## 结果展示
 ![优化器性能比较](cifar10_optimizer_comparison.png)
+
 ## 安装要求
 
 ### 环境要求
@@ -198,6 +201,7 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
+
 
 
 
