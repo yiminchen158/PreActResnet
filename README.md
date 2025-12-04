@@ -67,11 +67,11 @@ pip install -r requirements.txt
 
 ## 模型
 你可以通过以下链接来下载我们训练好的模型
-链接: https://pan.baidu.com/s/18yTiOg3UUjm1_eM-nNqFGA 提取码: z33f
+https://pan.baidu.com/s/18yTiOg3UUjm1_eM-nNqFGA 提取码: z33f
 
 ### 数据准备
 
-数据集会自动下载到[data/](data/)目录中。默认使用CIFAR-10数据集进行训练和测试。
+数据集需要下载到[data/](data/)目录中。使用CIFAR-10数据集进行训练和测试。
 
 ### 系统优化
 
@@ -89,7 +89,7 @@ python optimize_system.py
 
 ### 模型训练
 
-要训练模型，请运行：
+训练模型，请运行：
 
 ```bash
 python train.py
@@ -103,7 +103,7 @@ python train.py
 - **混合精度训练**: 自动混合精度以加速训练
 - **数据增强策略**: CutMix和MixUp随机应用
 
-训练完成后，最佳模型将保存在[checkpoints/](checkpoints/)目录中。
+训练完成后，最佳模型将保存在[checkpoints/](checkpoints/)目录中。训练结果将会保存在[runs/](runs/)目录中
 
 ### 模型测试
 
@@ -111,12 +111,6 @@ python train.py
 
 ```bash
 python test.py
-```
-
-要测试保存的检查点，请运行：
-
-```bash
-python test_with_checkpoints.py
 ```
 
 测试脚本将输出：
@@ -131,11 +125,6 @@ python test_with_checkpoints.py
 - 基于预激活残差块构建
 - 在每个残差块中先进行BatchNorm和ReLU激活，再进行卷积操作
 - 更易于训练深层网络
-
-### ResNeXt
-- 采用分组卷积的思想
-- 通过基数(cardinality)控制网络的分支数量
-- 提供了多种变体：ResNeXt29_8x64d, ResNeXt29_16x64d, ResNeXt29_32x4d
 
 ## 配置说明
 
@@ -209,6 +198,7 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
+
 
 
 
