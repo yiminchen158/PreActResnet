@@ -1,7 +1,7 @@
 # PreActResNet: 高效的图像分类深度学习模型
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+[![Python](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 本项目实现了基于Pre-Activation ResNet和ResNeXt的高效图像分类模型，专为CIFAR-10数据集优化。通过先进的训练技术和数据增强方法，我们的模型在CIFAR-10上达到了优异的性能表现。
@@ -23,7 +23,7 @@
 
 ### 环境要求
 
-- Python == 3.7
+- Python == 3.9
 - PyTorch >= 2.5.1
 - CUDA >= 10.2
 - GCC >= 4.9 
@@ -212,4 +212,5 @@ tensorboard --logdir=runs/
   pages={1492--1500},
   year={2017}
 }
+
 ```
