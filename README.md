@@ -180,6 +180,7 @@ python test.py
 
 ## 结果展示
 
+你可以在[Results](Results)目录下查看我们的训练日志和结果
 在CIFAR-10测试集上的性能表现：
 
 | 模型 | 准确率 | 备注 |
@@ -198,6 +199,7 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
+
 
 
 
