@@ -65,7 +65,7 @@ pip install -r requirements.txt
 └── test_with_checkpoints.py # 检查点测试程序
 ```
 
-## 使用方法
+## 模型
 你可以通过以下链接来下载我们训练好的模型
 链接: https://pan.baidu.com/s/18yTiOg3UUjm1_eM-nNqFGA 提取码: z33f
 
@@ -185,28 +185,4 @@ tensorboard --logdir=runs/
 - 训练损失和准确率
 - 测试准确率
 - 学习率变化
-
-## 引用
-
-如果你在研究中使用了本项目，请引用相关工作：
-
-```bibtex
-@article{he2016identity,
-  title={Identity mappings in deep residual networks},
-  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
-  journal={European conference on computer vision},
-  pages={630--645},
-  year={2016},
-  publisher={Springer}
-}
-
-@article{xie2017aggregated,
-  title={Aggregated residual transformations for deep neural networks},
-  author={Xie, Saining and Girshick, Ross and Doll{\'a}r, Piotr and Tu, Zhuowen and He, Kaiming},
-  journal={Proceedings of the IEEE conference on computer vision and pattern recognition},
-  pages={1492--1500},
-  year={2017}
-}
-
-```
 
